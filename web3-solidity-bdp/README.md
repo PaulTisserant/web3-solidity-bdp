@@ -1,4 +1,21 @@
-## Foundry
+# BDP Token Smart Contract
+
+This project is an ERC-20 token called BDP Token with a daily limited minting functionality implemented in Solidity. The smart contract is developed using Foundry.
+
+## Smart Contract Features
+
+- Standard ERC-20 token with 18 decimals
+- Daily minting system allowing users to create up to 1000 tokens per day
+- Automatic reset of the minting counter each day
+- Protection against exceeding daily limits
+
+## Frontend Application
+
+This smart contract is used by a frontend application developed with React:
+- **GitHub Repository**: [https://github.com/PaulTisserant/web3-front-bdp](https://github.com/PaulTisserant/web3-front-bdp)
+- **Online Application**: [https://bdpeu.netlify.app/](https://bdpeu.netlify.app/)
+
+## Development with Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -9,13 +26,13 @@ Foundry consists of:
 -   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+### Documentation
 
 https://book.getfoundry.sh/
 
-## Usage
+### Usage
 
-### Build
+#### Build
 
 ```shell
 $ forge build
